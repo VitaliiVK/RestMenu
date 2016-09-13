@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - restMenu@localhost" uuid="cae362e8-07db-4b01-991d-1cd118931dd6">
+    <database-info product="MySQL" version="5.7.14-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="restmenu">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="flatsdb"/>
+      <schema id="3" name="information_schema"/>
+      <schema id="4" name="jdbc1"/>
+      <schema id="5" name="jpateat"/>
+      <schema id="6" name="jpatest"/>
+      <schema id="7" name="mysql"/>
+      <schema id="8" name="newbase"/>
+      <schema id="9" name="ordersdb"/>
+      <schema id="10" name="performance_schema"/>
+      <schema id="11" name="sys"/>
+      <schema id="12" name="testdb2"/>
+      <schema id="13" name="testdb4"/>
+      <schema id="14" name="testproc"/>
+      <table id="15" parent="1" name="menu"/>
+      <column id="16" parent="15" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="17" parent="15" name="discount">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="18" parent="15" name="name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="19" parent="15" name="price">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="20" parent="15" name="weight">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <key id="21" parent="15" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

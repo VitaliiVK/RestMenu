@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - restMenu@localhost" uuid="cae362e8-07db-4b01-991d-1cd118931dd6">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-scope>restMenu:</introspection-scope>
+      <resolve-scope>restMenu:</resolve-scope>
+    </data-source>
+  </component>
+</project>
